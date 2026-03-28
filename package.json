@@ -4,10 +4,11 @@
   "private": true,
   "description": "Mobile bridge for a local Codex session",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start:project": "bash ./run-codvex.sh",
+    "install:command": "bash ./install-codvex-command.sh"
   },
   "dependencies": {
     "ws": "^8.18.3"
   }
 }
-
