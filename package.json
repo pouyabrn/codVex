@@ -1,0 +1,13 @@
+{
+  "name": "codvex",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mobile bridge for a local Codex session",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
+
